@@ -14,8 +14,8 @@ services:
     volumes:
       - ./data:/var/lib/rabbitmq/mnesia
     environment:
-      RABBITMQ_DEFAULT_USER: proyectomonitoreo
-      RABBITMQ_DEFAULT_PASS: grado2021
+      RABBITMQ_DEFAULT_USER: proyecto_iot
+      RABBITMQ_DEFAULT_PASS: abc123
       RABBITMQ_VM_MEMORY_HIGH_WATERMARK: 0.5
     networks:
       rabbitmq_net:
